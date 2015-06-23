@@ -1,0 +1,1099 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0x0215D6C0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Inform 7 for Windows</generator>
+  <activeNode nodeId="node-0x0215D6C0"/>
+  <item nodeId="node-0x0215D6C0">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">L4D2: The Concert&#x000A;An Interactive Fiction by Victor Nguyen&#x000A;Release 1 / Serial number 110827 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD&#x000A;&#x000A;Safe Room&#x000A;The Safe Room looks like it used to be a storage room. &#x000A;There's graffiti scrawled all over the walls.&#x000A;EAST:The Hallway.&#x000A;&#x000A;Coach: "Alright, heres the plan. Y'all know the Midnight Riders? They're gonna save us."&#x000A;&#x000A; Ellis: "I hate to break it to ya Coach, but I don't think they're actually here."&#x000A;&#x000A; Coach: "We'll set off their finale and the chopper gotta know something's up. And nobody, and I mean NOBODY has the bigger light show than the Midnight Riders."&#x000A;&#x000A; Rochelle:"...And that will signal the chopper! Coach, that's brilliant! ...I'm sorry about all the bad things I said about your crappy band..."&#x000A;&#x000A; (Starring you as Nick): "Coach, that is the stupidest idea I've ever agreed with."&#x000A;&#x000A; Coach: "Alright then, everybody grab a weapon and let's move!"&#x000A;&#x000A;&#x000A;You can see Rochelle, Coach and Ellis here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x021297F0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x021297F0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Safe Room&#x000A;The Safe Room looks like it used to be a storage room. &#x000A;There's graffiti scrawled all over the walls.&#x000A;EAST:The Hallway.&#x000A;&#x000A;&#x000A;&#x000A;You can see Rochelle, Coach and Ellis here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x021299D8"/>
+      <child nodeId="node-0x0213FA20"/>
+      <child nodeId="node-0x0213FB70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x021299D8">
+    <command xml:space="preserve">take medpack</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;The Bob grows larger and larger, gathering its power.&#x000A;&#x000A;The Big Daddy lunges towards the Bob.&#x000A;&#x000A;The Bob strikes up a defensive pose.&#x000A;&#x000A;The Big Daddy misses the Bob.&#x000A;&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x021350A0"/>
+      <child nodeId="node-0x02129A48"/>
+      <child nodeId="node-0x0215FA60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x021350A0">
+    <command xml:space="preserve">showme medpack</command>
+    <result xml:space="preserve">medpack - medpack&#x000A;location: in stage there out of play&#x000A;singular-named, improper-named; unlit, inedible, portable, neuter, ordinarily enumerated&#x000A;printed name: "medpack"&#x000A;printed plural name: "medpacks"&#x000A;indefinite article: none&#x000A;description: none&#x000A;initial appearance: none&#x000A;&#x000A;The nightmare grows larger and larger, gathering its power.&#x000A;&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02129A48">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Stage&#x000A;You can see a Bob and a Big Daddy here.&#x000A;&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02129AB8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02129AB8">
+    <command xml:space="preserve">heal</command>
+    <result xml:space="preserve">I'm healing! Cover me!&#x000A;&#x000A;The Big Daddy concentrates, and is now mildly concentrated.&#x000A;&#x000A;The Bob pulls back and begins roiling and seething, building its strength.&#x000A;&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02129B28"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02129B28">
+    <command xml:space="preserve">concentrate</command>
+    <result xml:space="preserve">You concentrate, and are now mildly concentrated.&#x000A;&#x000A;The Big Daddy lunges towards the Bob.&#x000A;&#x000A;The Bob grows larger and larger, gathering its power.&#x000A;&#x000A;The Big Daddy hits the Bob. The Bob loses concentration!&#x000A;&#x000A;The Bob pulls back and begins roiling and seething, building its strength.&#x000A;&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0215F820"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0215F820">
+    <command xml:space="preserve">attack Bob</command>
+    <result xml:space="preserve">The Bob strikes up a defensive pose.&#x000A;&#x000A;You hit the Bob. The Bob loses concentration!&#x000A;&#x000A;The Big Daddy concentrates, and is now mildly concentrated.&#x000A;&#x000A;The Bob readies the Bob's natural weapon.&#x000A;&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0215FA60">
+    <command xml:space="preserve">concentrate</command>
+    <result xml:space="preserve">You concentrate, and are now mildly concentrated.&#x000A;&#x000A;The Bob grows larger and larger, gathering its power.&#x000A;&#x000A;The Big Daddy lunges towards the Bob.&#x000A;&#x000A;The Bob strikes up a defensive pose.&#x000A;&#x000A;The Big Daddy misses the Bob.&#x000A;&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0215FD10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0215FD10">
+    <command xml:space="preserve">concentrate</command>
+    <result xml:space="preserve">You concentrate, and are now quite concentrated.&#x000A;&#x000A;The Bob grows larger and larger, gathering its power.&#x000A;&#x000A;The Big Daddy lunges towards the Bob.&#x000A;&#x000A;The Bob strikes up a defensive pose.&#x000A;&#x000A;The Big Daddy misses the Bob.&#x000A;&#x000A;The Bob grows larger and larger, gathering its power.&#x000A;&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0215FF48"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0215FF48">
+    <command xml:space="preserve">concentrate</command>
+    <result xml:space="preserve">You concentrate, and are now maximally concentrated.&#x000A;&#x000A;The Big Daddy lunges towards the Bob.&#x000A;&#x000A;The Bob strikes up a defensive pose.&#x000A;&#x000A;The Big Daddy misses the Bob.&#x000A;&#x000A;Dark tentacles whip mercilessly towards you.&#x000A;&#x000A;React&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0213ED60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0213ED60">
+    <command xml:space="preserve">attack</command>
+    <result xml:space="preserve">(the Bob)&#x000A;Attacking is an action, not a reaction.&#x000A;&#x000A;React&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0213EED8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0213EED8">
+    <command xml:space="preserve">dodge</command>
+    <result xml:space="preserve">You get ready for quick evasive maneuvers.&#x000A;&#x000A;You twist desperately aside as the horrible thing just misses you!&#x000A;&#x000A;&#x000A;&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0213F1A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0213F1A8">
+    <command xml:space="preserve">attack</command>
+    <result xml:space="preserve">(the Bob)&#x000A;The Bob pulls back and begins roiling and seething, building its strength.&#x000A;&#x000A;You miss the Bob.&#x000A;&#x000A;The Big Daddy lunges towards the Bob.&#x000A;&#x000A;The Bob grows larger and larger, gathering its power.&#x000A;&#x000A;The Big Daddy misses the Bob.&#x000A;&#x000A;The Bob grows larger and larger, gathering its power.&#x000A;&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0213FA20">
+    <command xml:space="preserve">attack infecteds</command>
+    <result xml:space="preserve">You make a mad dash at the Ellis and prepare to swing your katana. &#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A;&#x000A;You managed to deal the finishing blow to the dead infected!&#x000A;The common infected dies&#x000A;&#x000A;&#x000A;Coach yells at the infected and prepares to swing his katana. &#x000A;The infected gets ready for quick evasive maneuvers.&#x000A;&#x000A; This Infected got hit by aoe.&#x000A;&#x000A;Coach lands the finishing blow on the dead infected!&#x000A;The common infected dies&#x000A;&#x000A;&#x000A;The infected lunges towards Coach.&#x000A;&#x000A;The infected misses Coach.&#x000A;&#x000A;The infected lunges towards Ellis.&#x000A;&#x000A;The infected misses Ellis.&#x000A;&#x000A;Rochelle screams at the Tank and prepares to swing her katana. &#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A;&#x000A;Rochelle lands a few hits on the Tank and it growls furiously! &#x000A;&#x000A;&#x000A;The tank throws the concrete at Ellis. &#x000A;Ellis is hit by the rock.&#x000A;&#x000A;Ellis groans trying to stand up.&#x000A;&#x000A;&#x000A;&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0213FA90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0213FA90">
+    <command xml:space="preserve">attack infecteds</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0213FB00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0213FB00">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Stage&#x000A;You can see a Tank, Rochelle, Coach, Ellis, a gnome, a cola and a med kit here.&#x000A;&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0213FB70">
+    <command xml:space="preserve">attack infected</command>
+    <result xml:space="preserve">You make a mad dash at the Ellis and prepare to swing your katanafire. &#x000A; This Infected got hit by aoe.&#x000A;&#x000A;You managed to deal the finishing blow to an dead infected!&#x000A;&#x000A;You kill the infected.&#x000A;&#x000A;&#x000A;&#x000A;Coach yells at the Tank and prepares to swing his katana. &#x000A; This Infected got hit by aoe.&#x000A;&#x000A;Coach lands a few hits on the Tank and it growls furiously! &#x000A;&#x000A;&#x000A;Rochelle lunges at the Tank and prepares to swing her katana. &#x000A;Rochelle lands a few hits on the Tank and it snarls furiously! &#x000A;&#x000A;&#x000A;The Tank grabs a giant chunk of rock from the ground. &#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0213FBE0"/>
+      <child nodeId="node-0x021725B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0213FBE0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Stage&#x000A;You can see a Tank, Rochelle, Coach, Ellis, a gnome, a cola and a med kit here.&#x000A;&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0213FC50"/>
+      <child nodeId="node-0x0213FE10"/>
+      <child nodeId="node-0x021720E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0213FC50">
+    <command xml:space="preserve">attack infected</command>
+    <result xml:space="preserve">Attacking is an action, not a reaction.&#x000A;&#x000A;React&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0213FCC0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0213FCC0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Stage&#x000A;You can see a Tank, ten infected, Rochelle, Coach, Ellis, a gnome, a cola and a med kit here.&#x000A;&#x000A;React&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0213FD30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0213FD30">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Stage&#x000A;You can see a Tank, ten infected, Rochelle, Coach, Ellis, a gnome, a cola and a med kit here.&#x000A;&#x000A;React&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0213FDA0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0213FDA0">
+    <command xml:space="preserve">attack infected</command>
+    <result xml:space="preserve">Attacking is an action, not a reaction.&#x000A;&#x000A;React&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0213FE10">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Stage&#x000A;You can see a Tank, two infected, Rochelle, Coach, Ellis, a gnome, a cola and a med kit here.&#x000A;&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0213FE80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0213FE80">
+    <command xml:space="preserve">attack infected</command>
+    <result xml:space="preserve">You make a mad dash at the infected and prepare to swing your katana. &#x000A;You managed to deal the finishing blow to the dead infected!&#x000A;The common infected dies&#x000A;&#x000A;&#x000A;The tank throws the concrete at Ellis. &#x000A; This Infected got hit by aoe.&#x000A;&#x000A;Ellis is hit by the rock.&#x000A;&#x000A;&#x000A;&#x000A;Ellis lunges at the Tank and prepares to swing his katana. &#x000A;Ellis lands a few hits on the Tank and it growls furiously! &#x000A;&#x000A;&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0213FEF0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0213FEF0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Stage&#x000A;You can see a Tank, Rochelle, Coach, Ellis, a gnome, a cola and a med kit here.&#x000A;&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0213FF60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0213FF60">
+    <command xml:space="preserve">attack</command>
+    <result xml:space="preserve">(the Tank)&#x000A;You lunge at the Tank and prepare to swing your katana. &#x000A;You land a hit on the Tank, and it roars in anger!&#x000A;&#x000A;Rochelle dashes at the Tank and prepares to swing her katana. &#x000A;Rochelle lands a few hits on the Tank and it roars furiously! &#x000A;&#x000A;&#x000A;Coach dashes at the Tank and prepares to swing his katana. &#x000A;Coach lands a few hits on the Tank and it snarls furiously! &#x000A;&#x000A;&#x000A;Ellis yells at the Tank and prepares to swing his katana. &#x000A;The Tank grabs a giant chunk of rock from the ground. &#x000A;Ellis lands a few hits on the Tank and it roars furiously! &#x000A;&#x000A;&#x000A;The tank throws the concrete at Rochelle. &#x000A;Rochelle is hit by the rock.&#x000A;&#x000A;&#x000A;&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0213FFD0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0213FFD0">
+    <command xml:space="preserve">attack</command>
+    <result xml:space="preserve">(the Tank)&#x000A;You run towards the Rochelle and prepare to swing your katana. &#x000A;You land a hit on the Tank, and it roars in anger!&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;Ellis: "I'm "a reload!"&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;Rochelle lunges at the infected and prepares to swing her katana. &#x000A;The infected gets ready for quick evasive maneuvers.&#x000A;&#x000A; This Infected got hit by aoe.&#x000A;&#x000A;Rochelle lands the finishing blow on the dead infected!&#x000A;The common infected dies&#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;some infecteds heard the noises and have entered the stage. &#x000A;The infected lunges towards you.&#x000A;&#x000A;React&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02140040"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02140040">
+    <command xml:space="preserve">dodge</command>
+    <result xml:space="preserve">The infected misses you.&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;The infected lunges towards you.&#x000A;&#x000A;React&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x021400B0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x021400B0">
+    <command xml:space="preserve">doge</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;React&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02140120"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02140120">
+    <command xml:space="preserve">dodge</command>
+    <result xml:space="preserve">This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A;&#x000A;The infected hits you.&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02140190"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02140190">
+    <command xml:space="preserve">attack infected</command>
+    <result xml:space="preserve">You lunge at the you and prepare to swing your katana. &#x000A;You managed to deal the finishing blow to the dead infected!&#x000A;The common infected dies&#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;Ellis: "RELOADING!"&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;The Tank grabs a giant chunk of rock from the ground. &#x000A;some infecteds heard the noises and have entered the stage. &#x000A;some infecteds heard the noises and have entered the stage. &#x000A;The infected lunges towards Coach.&#x000A;&#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A;&#x000A;The infected hits Coach.Coach groans trying to stand up.&#x000A;&#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;Coach lunges at the infected and prepares to swing his katana. &#x000A;The infected gets ready for quick evasive maneuvers.&#x000A;&#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A;&#x000A;Coach lands the finishing blow on the dead infected!&#x000A;The common infected dies&#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02143668"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02143668">
+    <command xml:space="preserve">attack infected</command>
+    <result xml:space="preserve">You run towards the dead infected and prepare to swing your katana. &#x000A;You managed to deal the finishing blow to the dead infected!&#x000A;The common infected dies&#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;some infecteds heard the noises and have entered the stage. &#x000A;The infected lunges towards Rochelle.&#x000A;&#x000A;The infected hits Rochelle.Rochelle groans trying to stand up.&#x000A;&#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;The tank throws the concrete at Coach. &#x000A;Coach is hit by the rock.&#x000A;&#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;some infecteds heard the noises and have entered the stage. &#x000A;The infected lunges towards Ellis.&#x000A;&#x000A;The infected misses Ellis.&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;The infected lunges towards you.&#x000A;&#x000A;React&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x021436D8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x021436D8">
+    <command xml:space="preserve">dodge</command>
+    <result xml:space="preserve">The infected misses you.&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;Coach dashes at the infected and prepares to swing his katana. &#x000A;The infected gets ready for quick evasive maneuvers.&#x000A;&#x000A; This Infected got hit by aoe.&#x000A;&#x000A;Coach lands the finishing blow on the dead infected!&#x000A;The common infected dies&#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;Ellis rushes at the infected and prepares to swing his katana. &#x000A;The infected gets ready for quick evasive maneuvers.&#x000A;&#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A;&#x000A;Ellis lands the finishing blow on the dead infected!&#x000A;The common infected dies&#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02143748"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02143748">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Stage&#x000A;You can see six infected, a Tank, Rochelle, Coach, Ellis, a gnome, a cola and a med kit here.&#x000A;&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x021437B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x021437B8">
+    <command xml:space="preserve">attack infected</command>
+    <result xml:space="preserve">You lunge at the dead infected and prepare to swing your katana. &#x000A;You managed to deal the finishing blow to the dead infected!&#x000A;The common infected dies&#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;The infected lunges towards you.&#x000A;&#x000A;React&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02143828"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02143828">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Stage&#x000A;You can see six infected, a Tank, Rochelle, Coach, Ellis, a gnome, a cola and a med kit here.&#x000A;&#x000A;React&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02143898"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02143898">
+    <command xml:space="preserve">dodge</command>
+    <result xml:space="preserve">The infected hits you.&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;The Tank grabs a giant chunk of rock from the ground. &#x000A;some infecteds heard the noises and have entered the stage. &#x000A;Rochelle dashes at the Tank and prepares to swing her katana. &#x000A; This Infected got hit by aoe.&#x000A;&#x000A;Rochelle lands a few hits on the Tank and it snarls furiously! &#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;Coach readies Coach's katana.&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;The infected lunges towards Ellis.&#x000A;&#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A;&#x000A;The infected hits Ellis.&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;Ellis yells at the infected and prepares to swing his katana. &#x000A;The infected gets ready for quick evasive maneuvers.&#x000A;&#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A;&#x000A;Ellis lands the finishing blow on the dead infected!&#x000A;The common infected dies&#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;The infected lunges towards Coach.&#x000A;&#x000A;The infected misses Coach.&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02143908"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02143908">
+    <command xml:space="preserve">attack</command>
+    <result xml:space="preserve">What do you want to attack?&#x000A;&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02143978"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02143978">
+    <command xml:space="preserve">attack infected</command>
+    <result xml:space="preserve">You make a mad dash at the Coach and prepare to swing your katana. &#x000A; This Infected got hit by aoe.&#x000A;&#x000A;You managed to deal the finishing blow to the dead infected!&#x000A;The common infected dies&#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;The infected lunges towards Ellis.&#x000A;&#x000A;The infected misses Ellis.&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;Coach lunges at the infected and prepares to swing his katana. &#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A;&#x000A;Coach lands the finishing blow on the dead infected!&#x000A;The common infected dies&#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;Rochelle readies Rochelle's katana.&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;The tank throws the concrete at Ellis. &#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A;&#x000A;Ellis is hit by the rock.&#x000A;&#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;The infected lunges towards you.&#x000A;&#x000A;React&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x021439E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x021439E8">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Stage&#x000A;You can see seven infected, a Tank, Rochelle, Coach, Ellis, a gnome, a cola and a med kit here.&#x000A;&#x000A;React&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02143A58"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02143A58">
+    <command xml:space="preserve">rules on</command>
+    <result xml:space="preserve">Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.&#x000A;&#x000A;[Rule "standard active attacking first phase rule" applies.]&#x000A;Ellis lunges at the infected and prepares to swing his katana. &#x000A;[Rule "standard carry out dodging rule" applies.]&#x000A;[Rule "do not report actor dodge rule" applies.]&#x000A;[Rule "standard dodge prose rule" applies.]&#x000A;The infected gets ready for quick evasive maneuvers.&#x000A;&#x000A;[Rule "standard attacking second phase rule" applies.]&#x000A;The infected hits you.&#x000A;&#x000A;[Rule "standard attacking second phase rule" applies.]&#x000A; This Infected got hit by aoe.&#x000A;&#x000A;Ellis lands the finishing blow on the dead infected!&#x000A;The common infected dies&#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02143AC8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02143AC8">
+    <command xml:space="preserve">attack infected</command>
+    <result xml:space="preserve">[Rule "Does the player mean attacking a person" applies.]&#x000A;[Rule "Does the player mean attacking a killed person" applies.]&#x000A;[Rule "Does the player mean attacking a killed person" applies.]&#x000A;[Rule "Does the player mean attacking a killed person" applies.]&#x000A;[Rule "Does the player mean attacking a killed person" applies.]&#x000A;[Rule "Does the player mean attacking a killed person" applies.]&#x000A;[Rule "Does the player mean attacking a killed person" applies.]&#x000A;[Rule "only attack persons rule" applies.]&#x000A;[Rule "only attack the living rule" applies.]&#x000A;[Rule "do not kill yourself rule" applies.]&#x000A;[Rule "do not attack friendly people rule" applies.]&#x000A;[Rule "do not attack neutral people rule" applies.]&#x000A;[Rule "cannot attack as reaction rule" applies.]&#x000A;[Rule "cannot attack when out of ammo rule" applies.]&#x000A;[Rule "standard active attacking first phase rule" applies.]&#x000A;You lunge at the dead infected and prepare to swing your katana. &#x000A;[Rule "standard concentrating improves initiative rule" applies.]&#x000A;[Rule "standard carry out concentrating rule" applies.]&#x000A;[Rule "actor concentrating prose rule" applies.]&#x000A;[Rule "only attack persons rule" applies.]&#x000A;[Rule "only attack the living rule" applies.]&#x000A;[Rule "do not kill yourself rule" applies.]&#x000A;[Rule "do not attack friendly people rule" applies.]&#x000A;[Rule "do not attack neutral people rule" applies.]&#x000A;[Rule "cannot attack as reaction rule" applies.]&#x000A;[Rule "cannot attack when out of ammo rule" applies.]&#x000A;[Rule "standard attacking second phase rule" applies.]&#x000A; This Infected got hit by aoe.&#x000A;&#x000A;You managed to deal the finishing blow to the dead infected!&#x000A;The common infected dies&#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;[Rule "standard concentrating improves initiative rule" applies.]&#x000A;[Rule "standard carry out concentrating rule" applies.]&#x000A;[Rule "actor concentrating prose rule" applies.]&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;[Rule "ready upon reloading rule" applies.]&#x000A;[Rule "cannot ready what is already readied rule" applies.]&#x000A;[Rule "implicit taking when readying rule" applies.]&#x000A;[Rule "can't take yourself rule" applies.]&#x000A;[Rule "can't take other people rule" applies.]&#x000A;[Rule "can't take component parts rule" applies.]&#x000A;[Rule "can't take items out of play rule" applies.]&#x000A;[Rule "can't take what you're inside rule" applies.]&#x000A;[Rule "can't take what's already taken rule" applies.]&#x000A;[Rule "can't take scenery rule" applies.]&#x000A;[Rule "can only take things rule" applies.]&#x000A;[Rule "can't take what's fixed in place rule" applies.]&#x000A;[Rule "use player's holdall to avoid exceeding carrying capacity rule" applies.]&#x000A;[Rule "can't exceed carrying capacity rule" applies.]&#x000A;[Rule "can't take living people's possessions rule" applies.]&#x000A;That seems to belong to Rochelle.&#x000A;&#x000A;[Rule "carry out readying when enclosing rule" applies.]&#x000A;[Rule "unready all other weapons rule" applies.]&#x000A;[Rule "zero current ammo on reloading rule" applies.]&#x000A;[Rule "standard carry out reloading rule" applies.]&#x000A;[Rule "Report Rochelle reloading" applies.]&#x000A;Rochelle: "Reloading here!"&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;[Rule "standard active attacking first phase rule" applies.]&#x000A;The infected lunges towards Ellis.&#x000A;&#x000A;[Rule "standard carry out dodging rule" applies.]&#x000A;[Rule "do not report actor dodge rule" applies.]&#x000A;[Rule "standard attacking second phase rule" applies.]&#x000A;The infected misses Ellis.&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;[Rule "standard active attacking first phase rule" applies.]&#x000A;The infected lunges towards Coach.&#x000A;&#x000A;[Rule "parrying changes initiative rule" applies.]&#x000A;[Rule "standard carry out parrying rule" applies.]&#x000A;[Rule "do not report actor parry rule" applies.]&#x000A;[Rule "standard attacking second phase rule" applies.]&#x000A;The infected hits Coach.Coach groans trying to stand up.&#x000A;&#x000A;&#x000A;&#x000A;[Rule "ready upon reloading rule" applies.]&#x000A;[Rule "zero current ammo on reloading rule" applies.]&#x000A;[Rule "standard carry out reloading rule" applies.]&#x000A;[Rule "Report the Tank reloading" applies.]&#x000A;The Tank grabs a giant chunk of rock from the ground. &#x000A;[Rule "standard active attacking first phase rule" applies.]&#x000A;Ellis rushes at the infected and prepares to swing his katana. &#x000A;[Rule "standard carry out dodging rule" applies.]&#x000A;[Rule "do not report actor dodge rule" applies.]&#x000A;[Rule "standard dodge prose rule" applies.]&#x000A;The infected gets ready for quick evasive maneuvers.&#x000A;&#x000A;[Rule "standard attacking second phase rule" applies.]&#x000A; This Infected got hit by aoe.&#x000A;&#x000A;Ellis lands the finishing blow on the dead infected!&#x000A;The common infected dies&#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02143B38"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02143B38">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">[Rule "Rule for setting action variables when acting fast" applies.]&#x000A;[Rule "determine visibility ceiling rule" applies.]&#x000A;[Rule "room description heading rule" applies.]&#x000A;Stage&#x000A;[Rule "room description body text rule" applies.]&#x000A;[Rule "room description paragraphs about objects rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;You can see ten infected, a Tank, Rochelle, Coach, Ellis, a gnome, a cola and a med kit here.&#x000A;&#x000A;[Rule "check new arrival rule" applies.]&#x000A;[Rule "second make sure that going is not acting fast rule" applies.]&#x000A;[Rule "other people looking rule" applies.]&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02143BA8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02143BA8">
+    <command xml:space="preserve">attack infecteds</command>
+    <result xml:space="preserve">[Rule "Does the player mean attacking a person" applies.]&#x000A;[Rule "Does the player mean attacking a person" applies.]&#x000A;[Rule "Does the player mean attacking a person" applies.]&#x000A;[Rule "Does the player mean attacking a person" applies.]&#x000A;[Rule "Does the player mean attacking a killed person" applies.]&#x000A;[Rule "Does the player mean attacking a killed person" applies.]&#x000A;[Rule "Does the player mean attacking a killed person" applies.]&#x000A;[Rule "Does the player mean attacking a killed person" applies.]&#x000A;[Rule "Does the player mean attacking a killed person" applies.]&#x000A;[Rule "Does the player mean attacking a killed person" applies.]&#x000A;[Rule "only attack persons rule" applies.]&#x000A;[Rule "only attack the living rule" applies.]&#x000A;[Rule "do not kill yourself rule" applies.]&#x000A;[Rule "do not attack friendly people rule" applies.]&#x000A;[Rule "do not attack neutral people rule" applies.]&#x000A;[Rule "cannot attack as reaction rule" applies.]&#x000A;[Rule "cannot attack when out of ammo rule" applies.]&#x000A;[Rule "standard active attacking first phase rule" applies.]&#x000A;You run towards the infected and prepare to swing your katana. &#x000A;[Rule "standard concentrating improves initiative rule" applies.]&#x000A;[Rule "standard carry out concentrating rule" applies.]&#x000A;[Rule "actor concentrating prose rule" applies.]&#x000A;[Rule "only attack persons rule" applies.]&#x000A;[Rule "only attack the living rule" applies.]&#x000A;[Rule "do not kill yourself rule" applies.]&#x000A;[Rule "do not attack friendly people rule" applies.]&#x000A;[Rule "do not attack neutral people rule" applies.]&#x000A;[Rule "cannot attack as reaction rule" applies.]&#x000A;[Rule "cannot attack when out of ammo rule" applies.]&#x000A;[Rule "standard attacking second phase rule" applies.]&#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A;&#x000A;You managed to deal the finishing blow to the dead infected!&#x000A;The common infected dies&#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;[Rule "standard active attacking first phase rule" applies.]&#x000A;The infected lunges towards you.&#x000A;&#x000A;React&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02143C18"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02143C18">
+    <command xml:space="preserve">dodge</command>
+    <result xml:space="preserve">[Rule "cannot dodge when not reacting rule" applies.]&#x000A;[Rule "standard carry out dodging rule" applies.]&#x000A;[Rule "do not report actor dodge rule" applies.]&#x000A;[Rule "standard attacking second phase rule" applies.]&#x000A;The infected misses you.&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;[Rule "implicit taking when readying rule" applies.]&#x000A;[Rule "carry out readying when enclosing rule" applies.]&#x000A;[Rule "unready all other weapons rule" applies.]&#x000A;[Rule "standard report readying rule" applies.]&#x000A;Rochelle readies Rochelle's ak-47.&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;[Rule "standard active attacking first phase rule" applies.]&#x000A;The infected lunges towards you.&#x000A;&#x000A;React&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02143C88"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02143C88">
+    <command xml:space="preserve">dodge</command>
+    <result xml:space="preserve">[Rule "cannot dodge when not reacting rule" applies.]&#x000A;[Rule "standard carry out dodging rule" applies.]&#x000A;[Rule "do not report actor dodge rule" applies.]&#x000A;[Rule "standard attacking second phase rule" applies.]&#x000A;The infected misses you.&#x000A;&#x000A;[Rule "ready upon reloading rule" applies.]&#x000A;[Rule "cannot ready what is already readied rule" applies.]&#x000A;[Rule "implicit taking when readying rule" applies.]&#x000A;[Rule "can't take yourself rule" applies.]&#x000A;[Rule "can't take other people rule" applies.]&#x000A;[Rule "can't take component parts rule" applies.]&#x000A;[Rule "can't take items out of play rule" applies.]&#x000A;[Rule "can't take what you're inside rule" applies.]&#x000A;[Rule "can't take what's already taken rule" applies.]&#x000A;[Rule "can't take scenery rule" applies.]&#x000A;[Rule "can only take things rule" applies.]&#x000A;[Rule "can't take what's fixed in place rule" applies.]&#x000A;[Rule "use player's holdall to avoid exceeding carrying capacity rule" applies.]&#x000A;[Rule "can't exceed carrying capacity rule" applies.]&#x000A;[Rule "can't take living people's possessions rule" applies.]&#x000A;That seems to belong to Coach.&#x000A;&#x000A;[Rule "carry out readying when enclosing rule" applies.]&#x000A;[Rule "unready all other weapons rule" applies.]&#x000A;[Rule "zero current ammo on reloading rule" applies.]&#x000A;[Rule "standard carry out reloading rule" applies.]&#x000A;[Rule "Report Coach reloading" applies.]&#x000A;"Coach: RELOADING!"&#x000A;&#x000A;[Rule "standard active attacking first phase rule" applies.]&#x000A;The infected lunges towards Rochelle.&#x000A;&#x000A;[Rule "standard carry out dodging rule" applies.]&#x000A;[Rule "do not report actor dodge rule" applies.]&#x000A;[Rule "standard attacking second phase rule" applies.]&#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A;&#x000A;The infected hits Rochelle.&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;[Rule "standard concentrating improves initiative rule" applies.]&#x000A;[Rule "standard carry out concentrating rule" applies.]&#x000A;[Rule "actor concentrating prose rule" applies.]&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;[Rule "standard active attacking first phase rule" applies.]&#x000A;The tank throws the concrete at Ellis. &#x000A;[Rule "standard carry out dodging rule" applies.]&#x000A;[Rule "do not report actor dodge rule" applies.]&#x000A;[Rule "standard attacking second phase rule" applies.]&#x000A; This Infected got hit by aoe.&#x000A;&#x000A;Ellis is hit by the rock.&#x000A;&#x000A;Ellis groans trying to stand up.&#x000A;&#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02143CF8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02143CF8">
+    <command xml:space="preserve">attack infecteds</command>
+    <result xml:space="preserve">[Rule "Does the player mean attacking a person" applies.]&#x000A;[Rule "Does the player mean attacking a person" applies.]&#x000A;[Rule "Does the player mean attacking a person" applies.]&#x000A;[Rule "Does the player mean attacking a killed person" applies.]&#x000A;[Rule "Does the player mean attacking a killed person" applies.]&#x000A;[Rule "Does the player mean attacking a killed person" applies.]&#x000A;[Rule "Does the player mean attacking a killed person" applies.]&#x000A;[Rule "Does the player mean attacking a killed person" applies.]&#x000A;[Rule "Does the player mean attacking a killed person" applies.]&#x000A;[Rule "only attack persons rule" applies.]&#x000A;[Rule "only attack the living rule" applies.]&#x000A;[Rule "do not kill yourself rule" applies.]&#x000A;[Rule "do not attack friendly people rule" applies.]&#x000A;[Rule "do not attack neutral people rule" applies.]&#x000A;[Rule "cannot attack as reaction rule" applies.]&#x000A;[Rule "cannot attack when out of ammo rule" applies.]&#x000A;[Rule "standard active attacking first phase rule" applies.]&#x000A;You lunge at the Ellis and prepare to swing your katana. &#x000A;[Rule "standard concentrating improves initiative rule" applies.]&#x000A;[Rule "standard carry out concentrating rule" applies.]&#x000A;[Rule "actor concentrating prose rule" applies.]&#x000A;[Rule "only attack persons rule" applies.]&#x000A;[Rule "only attack the living rule" applies.]&#x000A;[Rule "do not kill yourself rule" applies.]&#x000A;[Rule "do not attack friendly people rule" applies.]&#x000A;[Rule "do not attack neutral people rule" applies.]&#x000A;[Rule "cannot attack as reaction rule" applies.]&#x000A;[Rule "cannot attack when out of ammo rule" applies.]&#x000A;[Rule "standard attacking second phase rule" applies.]&#x000A; This Infected got hit by aoe.&#x000A;&#x000A;You managed to deal the finishing blow to the dead infected!&#x000A;The common infected dies&#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;[Rule "standard active attacking first phase rule" applies.]&#x000A;The infected lunges towards you.&#x000A;&#x000A;React&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02143D68"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02143D68">
+    <command xml:space="preserve">dodge</command>
+    <result xml:space="preserve">[Rule "cannot dodge when not reacting rule" applies.]&#x000A;[Rule "standard carry out dodging rule" applies.]&#x000A;[Rule "do not report actor dodge rule" applies.]&#x000A;[Rule "standard attacking second phase rule" applies.]&#x000A; This Infected got hit by aoe.&#x000A;&#x000A;The infected hits you.&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;[Rule "ready upon reloading rule" applies.]&#x000A;[Rule "zero current ammo on reloading rule" applies.]&#x000A;[Rule "standard carry out reloading rule" applies.]&#x000A;[Rule "Report Rochelle reloading" applies.]&#x000A;Rochelle: "RELOADING!"&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;[Rule "standard active attacking first phase rule" applies.]&#x000A;The infected lunges towards Rochelle.&#x000A;&#x000A;[Rule "standard carry out dodging rule" applies.]&#x000A;[Rule "do not report actor dodge rule" applies.]&#x000A;[Rule "standard attacking second phase rule" applies.]&#x000A;The infected misses Rochelle.&#x000A;&#x000A;[Rule "standard active attacking first phase rule" applies.]&#x000A;The infected lunges towards Rochelle.&#x000A;&#x000A;[Rule "standard carry out dodging rule" applies.]&#x000A;[Rule "do not report actor dodge rule" applies.]&#x000A;[Rule "standard attacking second phase rule" applies.]&#x000A;The infected misses Rochelle.&#x000A;&#x000A;[Rule "standard active attacking first phase rule" applies.]&#x000A;Coach yells at the infected and prepares to swing his katana. &#x000A;[Rule "standard concentrating improves initiative rule" applies.]&#x000A;[Rule "standard carry out concentrating rule" applies.]&#x000A;[Rule "actor concentrating prose rule" applies.]&#x000A;[Rule "standard attacking second phase rule" applies.]&#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A;&#x000A;Coach lands the finishing blow on the dead infected!&#x000A;The common infected dies&#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;[Rule "standard concentrating improves initiative rule" applies.]&#x000A;[Rule "standard carry out concentrating rule" applies.]&#x000A;[Rule "actor concentrating prose rule" applies.]&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;[Rule "standard active attacking first phase rule" applies.]&#x000A;The infected lunges towards Coach.&#x000A;&#x000A;[Rule "parrying changes initiative rule" applies.]&#x000A;[Rule "standard carry out parrying rule" applies.]&#x000A;[Rule "do not report actor parry rule" applies.]&#x000A;[Rule "standard attacking second phase rule" applies.]&#x000A;The infected misses Coach.&#x000A;&#x000A;[Rule "ready upon reloading rule" applies.]&#x000A;[Rule "zero current ammo on reloading rule" applies.]&#x000A;[Rule "standard carry out reloading rule" applies.]&#x000A;[Rule "Report the Tank reloading" applies.]&#x000A;The Tank grabs a giant chunk of rock from the ground. &#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02143DD8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02143DD8">
+    <command xml:space="preserve">attack tank</command>
+    <result xml:space="preserve">[Rule "only attack persons rule" applies.]&#x000A;[Rule "only attack the living rule" applies.]&#x000A;[Rule "do not kill yourself rule" applies.]&#x000A;[Rule "do not attack friendly people rule" applies.]&#x000A;[Rule "do not attack neutral people rule" applies.]&#x000A;[Rule "cannot attack as reaction rule" applies.]&#x000A;[Rule "cannot attack when out of ammo rule" applies.]&#x000A;[Rule "standard active attacking first phase rule" applies.]&#x000A;You make a mad dash at the Coach and prepare to swing your katana. &#x000A;[Rule "parrying changes initiative rule" applies.]&#x000A;[Rule "standard carry out parrying rule" applies.]&#x000A;[Rule "do not report actor parry rule" applies.]&#x000A;[Rule "only attack persons rule" applies.]&#x000A;[Rule "only attack the living rule" applies.]&#x000A;[Rule "do not kill yourself rule" applies.]&#x000A;[Rule "do not attack friendly people rule" applies.]&#x000A;[Rule "do not attack neutral people rule" applies.]&#x000A;[Rule "cannot attack as reaction rule" applies.]&#x000A;[Rule "cannot attack when out of ammo rule" applies.]&#x000A;[Rule "standard attacking second phase rule" applies.]&#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A;&#x000A;You land a hit on the Tank, and it roars in anger!&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;[Rule "standard concentrating improves initiative rule" applies.]&#x000A;[Rule "standard carry out concentrating rule" applies.]&#x000A;[Rule "actor concentrating prose rule" applies.]&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;[Rule "standard active attacking first phase rule" applies.]&#x000A;Coach lunges at the infected and prepares to swing his katana. &#x000A;[Rule "standard concentrating improves initiative rule" applies.]&#x000A;[Rule "standard carry out concentrating rule" applies.]&#x000A;[Rule "actor concentrating prose rule" applies.]&#x000A;[Rule "standard attacking second phase rule" applies.]&#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A;&#x000A;Coach lands the finishing blow on the dead infected!&#x000A;The common infected dies&#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;[Rule "standard active attacking first phase rule" applies.]&#x000A;Ellis lunges at the Tank and prepares to swing his katana. &#x000A;[Rule "standard carry out dodging rule" applies.]&#x000A;[Rule "do not report actor dodge rule" applies.]&#x000A;[Rule "standard attacking second phase rule" applies.]&#x000A; This Infected got hit by aoe.&#x000A;&#x000A;Ellis lands a few hits on the Tank and it growls furiously! &#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;[Rule "standard active attacking first phase rule" applies.]&#x000A;The tank throws the concrete at you. &#x000A;React&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02167778"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02167778">
+    <command xml:space="preserve">dodge</command>
+    <result xml:space="preserve">[Rule "cannot dodge when not reacting rule" applies.]&#x000A;[Rule "standard carry out dodging rule" applies.]&#x000A;[Rule "do not report actor dodge rule" applies.]&#x000A;[Rule "standard attacking second phase rule" applies.]&#x000A;you got hit by the concrete.&#x000A;&#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;[Rule "standard active attacking first phase rule" applies.]&#x000A;The infected lunges towards Coach.&#x000A;&#x000A;[Rule "ready upon reloading rule" applies.]&#x000A;[Rule "cannot ready what is already readied rule" applies.]&#x000A;[Rule "implicit taking when readying rule" applies.]&#x000A;[Rule "can't take yourself rule" applies.]&#x000A;[Rule "can't take other people rule" applies.]&#x000A;[Rule "can't take component parts rule" applies.]&#x000A;[Rule "can't take items out of play rule" applies.]&#x000A;[Rule "can't take what you're inside rule" applies.]&#x000A;[Rule "can't take what's already taken rule" applies.]&#x000A;[Rule "can't take scenery rule" applies.]&#x000A;[Rule "can only take things rule" applies.]&#x000A;[Rule "can't take what's fixed in place rule" applies.]&#x000A;[Rule "use player's holdall to avoid exceeding carrying capacity rule" applies.]&#x000A;[Rule "can't exceed carrying capacity rule" applies.]&#x000A;[Rule "can't take living people's possessions rule" applies.]&#x000A;That seems to belong to Coach.&#x000A;&#x000A;[Rule "carry out readying when enclosing rule" applies.]&#x000A;[Rule "unready all other weapons rule" applies.]&#x000A;[Rule "zero current ammo on reloading rule" applies.]&#x000A;[Rule "standard carry out reloading rule" applies.]&#x000A;[Rule "Report Coach reloading" applies.]&#x000A;"Coach: Re-goddamn-loading!"&#x000A;&#x000A;[Rule "standard attacking second phase rule" applies.]&#x000A;The infected hits Coach.&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;[Rule "standard active attacking first phase rule" applies.]&#x000A;The infected lunges towards Rochelle.&#x000A;&#x000A;[Rule "standard carry out dodging rule" applies.]&#x000A;[Rule "do not report actor dodge rule" applies.]&#x000A;[Rule "standard attacking second phase rule" applies.]&#x000A;The infected misses Rochelle.&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;[Rule "standard active attacking first phase rule" applies.]&#x000A;Rochelle lunges at the infected and prepares to swing her katana. &#x000A;[Rule "standard carry out dodging rule" applies.]&#x000A;[Rule "do not report actor dodge rule" applies.]&#x000A;[Rule "standard dodge prose rule" applies.]&#x000A;The infected gets ready for quick evasive maneuvers.&#x000A;&#x000A;[Rule "standard attacking second phase rule" applies.]&#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A;&#x000A;Rochelle lands the finishing blow on the dead infected!&#x000A;The common infected dies&#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x021677E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x021677E8">
+    <command xml:space="preserve">attack infecteds</command>
+    <result xml:space="preserve">[Rule "Does the player mean attacking a person" applies.]&#x000A;[Rule "Does the player mean attacking a person" applies.]&#x000A;[Rule "Does the player mean attacking a person" applies.]&#x000A;[Rule "Does the player mean attacking a killed person" applies.]&#x000A;[Rule "Does the player mean attacking a killed person" applies.]&#x000A;[Rule "Does the player mean attacking a killed person" applies.]&#x000A;[Rule "Does the player mean attacking a killed person" applies.]&#x000A;[Rule "Does the player mean attacking a killed person" applies.]&#x000A;[Rule "Does the player mean attacking a killed person" applies.]&#x000A;[Rule "only attack persons rule" applies.]&#x000A;[Rule "only attack the living rule" applies.]&#x000A;[Rule "do not kill yourself rule" applies.]&#x000A;[Rule "do not attack friendly people rule" applies.]&#x000A;[Rule "do not attack neutral people rule" applies.]&#x000A;[Rule "cannot attack as reaction rule" applies.]&#x000A;[Rule "cannot attack when out of ammo rule" applies.]&#x000A;[Rule "standard active attacking first phase rule" applies.]&#x000A;You run towards the dead infected and prepare to swing your katana. &#x000A;[Rule "standard concentrating improves initiative rule" applies.]&#x000A;[Rule "standard carry out concentrating rule" applies.]&#x000A;[Rule "actor concentrating prose rule" applies.]&#x000A;[Rule "only attack persons rule" applies.]&#x000A;[Rule "only attack the living rule" applies.]&#x000A;[Rule "do not kill yourself rule" applies.]&#x000A;[Rule "do not attack friendly people rule" applies.]&#x000A;[Rule "do not attack neutral people rule" applies.]&#x000A;[Rule "cannot attack as reaction rule" applies.]&#x000A;[Rule "cannot attack when out of ammo rule" applies.]&#x000A;[Rule "standard attacking second phase rule" applies.]&#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A;&#x000A;You managed to deal the finishing blow to the dead infected!&#x000A;The common infected dies&#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;[Rule "standard active attacking first phase rule" applies.]&#x000A;The infected lunges towards Coach.&#x000A;&#x000A;[Rule "parrying changes initiative rule" applies.]&#x000A;[Rule "standard carry out parrying rule" applies.]&#x000A;[Rule "do not report actor parry rule" applies.]&#x000A;[Rule "standard attacking second phase rule" applies.]&#x000A;The infected misses Coach.&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;[Rule "standard active attacking first phase rule" applies.]&#x000A;The infected lunges towards Coach.&#x000A;&#x000A;[Rule "standard concentrating improves initiative rule" applies.]&#x000A;[Rule "standard carry out concentrating rule" applies.]&#x000A;[Rule "actor concentrating prose rule" applies.]&#x000A;[Rule "standard attacking second phase rule" applies.]&#x000A;The infected hits Coach.Coach groans trying to stand up.&#x000A;&#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;[Rule "implicit taking when readying rule" applies.]&#x000A;[Rule "carry out readying when enclosing rule" applies.]&#x000A;[Rule "unready all other weapons rule" applies.]&#x000A;[Rule "standard report readying rule" applies.]&#x000A;Coach readies Coach's ak-47.&#x000A;&#x000A;[Rule "ready upon reloading rule" applies.]&#x000A;[Rule "zero current ammo on reloading rule" applies.]&#x000A;[Rule "standard carry out reloading rule" applies.]&#x000A;[Rule "Report the Tank reloading" applies.]&#x000A;The Tank grabs a giant chunk of rock from the ground. &#x000A;[Rule "standard concentrating improves initiative rule" applies.]&#x000A;[Rule "standard carry out concentrating rule" applies.]&#x000A;[Rule "actor concentrating prose rule" applies.]&#x000A;[Rule "standard active attacking first phase rule" applies.]&#x000A;The infected lunges towards Rochelle.&#x000A;&#x000A;[Rule "standard carry out dodging rule" applies.]&#x000A;[Rule "do not report actor dodge rule" applies.]&#x000A;[Rule "standard attacking second phase rule" applies.]&#x000A; This Infected got hit by aoe.&#x000A;&#x000A;The infected hits Rochelle.&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;[Rule "standard active attacking first phase rule" applies.]&#x000A;The infected lunges towards Coach.&#x000A;&#x000A;[Rule "standard carry out dodging rule" applies.]&#x000A;[Rule "do not report actor dodge rule" applies.]&#x000A;[Rule "standard attacking second phase rule" applies.]&#x000A;The infected misses Coach.&#x000A;&#x000A;[Rule "standard active attacking first phase rule" applies.]&#x000A;Rochelle screams at the infected and prepares to swing her katana. &#x000A;[Rule "standard carry out dodging rule" applies.]&#x000A;[Rule "do not report actor dodge rule" applies.]&#x000A;[Rule "standard dodge prose rule" applies.]&#x000A;The infected gets ready for quick evasive maneuvers.&#x000A;&#x000A;[Rule "standard attacking second phase rule" applies.]&#x000A; This Infected got hit by aoe.&#x000A;&#x000A;Rochelle lands the finishing blow on the dead infected!&#x000A;The common infected dies&#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02167858"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02167858">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">[Rule "Rule for setting action variables when acting fast" applies.]&#x000A;[Rule "determine visibility ceiling rule" applies.]&#x000A;[Rule "room description heading rule" applies.]&#x000A;Stage&#x000A;[Rule "room description body text rule" applies.]&#x000A;[Rule "room description paragraphs about objects rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;You can see nine infected, a Tank, Rochelle, Coach, Ellis, a gnome, a cola and a med kit here.&#x000A;&#x000A;[Rule "check new arrival rule" applies.]&#x000A;[Rule "second make sure that going is not acting fast rule" applies.]&#x000A;[Rule "other people looking rule" applies.]&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x021678C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x021678C8">
+    <command xml:space="preserve">rules off.</command>
+    <result xml:space="preserve">Rules tracing now switched off. Type "rules" to switch it on again.&#x000A;&#x000A;The infected lunges towards Coach.&#x000A;&#x000A;The infected misses Coach.&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;The infected lunges towards Ellis.&#x000A;&#x000A;The infected misses Ellis.&#x000A;&#x000A;Ellis rushes at the Tank and prepares to swing his katana. &#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A;&#x000A;Ellis lands a few hits on the Tank and it snarls furiously! &#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;Coach yells at the infected and prepares to swing his katana. &#x000A;The infected gets ready for quick evasive maneuvers.&#x000A;&#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A;&#x000A;Coach lands the finishing blow on the dead infected!&#x000A;The common infected dies&#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;The tank throws the concrete at Coach. &#x000A;The Tank smashes Coach's body.&#x000A;Coach has died.&#x000A;&#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;The infected lunges towards Rochelle.&#x000A;&#x000A;The infected misses Rochelle.&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;Rochelle lunges at the infected and prepares to swing her katana. &#x000A;The infected gets ready for quick evasive maneuvers.&#x000A;&#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A;&#x000A;Rochelle lands the finishing blow on the dead infected!&#x000A;The common infected dies&#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02167938"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02167938">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Stage&#x000A;You can see eight infected, a Tank, Rochelle, Coach's body, Ellis, a gnome, a cola and a med kit here.&#x000A;&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x021679A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x021679A8">
+    <command xml:space="preserve">attack infected</command>
+    <result xml:space="preserve">You lunge at the dead infected and prepare to swing your katana. &#x000A;You managed to deal the finishing blow to the dead infected!&#x000A;The common infected dies&#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;The infected lunges towards Rochelle.&#x000A;&#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A;&#x000A;The infected hits Rochelle.Rochelle groans trying to stand up.&#x000A;&#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;Ellis readies Ellis' katana.&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;The Tank grabs a giant chunk of rock from the ground. &#x000A;some infecteds heard the noises and have entered the stage. &#x000A;The infected lunges towards Rochelle.&#x000A;&#x000A; This Infected got hit by aoe.&#x000A;&#x000A;The infected hits Rochelle.&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02167A18"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02167A18">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Stage&#x000A;You can see nine infected, a Tank, Rochelle, Coach's body, Ellis, a gnome, a cola and a med kit here.&#x000A;&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02167A88"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02167A88">
+    <command xml:space="preserve">attack infected</command>
+    <result xml:space="preserve">You run towards the Rochelle and prepare to swing your katana. &#x000A;You managed to deal the finishing blow to the dead infected!&#x000A;The common infected dies&#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;The infected lunges towards Rochelle.&#x000A;&#x000A;The infected misses Rochelle.&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;Ellis readies Ellis' ak-47.&#x000A;&#x000A;Rochelle screams at the infected and prepares to swing her katana. &#x000A;The infected gets ready for quick evasive maneuvers.&#x000A;&#x000A;Rochelle lands the finishing blow on the dead infected!&#x000A;The common infected dies&#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;The tank throws the concrete at Rochelle. &#x000A; This Infected got hit by aoe.&#x000A;&#x000A;The Tank smashes Rochelle's body.&#x000A;Rochellle has died.&#x000A;&#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;The infected lunges towards Ellis.&#x000A;&#x000A;Ellis readies Ellis' katana.&#x000A;&#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A;&#x000A;The infected hits Ellis.&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02167AF8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02167AF8">
+    <command xml:space="preserve">attack infected</command>
+    <result xml:space="preserve">You lunge at the Ellis and prepare to swing your katana. &#x000A;You managed to deal the finishing blow to the dead infected!&#x000A;The common infected dies&#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;The infected lunges towards Ellis.&#x000A;&#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A;&#x000A;The infected hits Ellis.&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;some infecteds heard the noises and have entered the stage. &#x000A;The Tank grabs a giant chunk of rock from the ground. &#x000A;some infecteds heard the noises and have entered the stage. &#x000A;The infected lunges towards you.&#x000A;&#x000A;React&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02167B68"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02167B68">
+    <command xml:space="preserve">attack infected</command>
+    <result xml:space="preserve">Attacking is an action, not a reaction.&#x000A;&#x000A;React&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02167BD8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02167BD8">
+    <command xml:space="preserve">dodge</command>
+    <result xml:space="preserve">The infected misses you.&#x000A;&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02167C48"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02167C48">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Stage&#x000A;You can see ten infected, a Tank, Rochelle's body, Coach's body, Ellis, a gnome, a cola and a med kit here.&#x000A;&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02167CB8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02167CB8">
+    <command xml:space="preserve">attack infected</command>
+    <result xml:space="preserve">You make a mad dash at the you and prepare to swing your katana. &#x000A;You managed to deal the finishing blow to the dead infected!&#x000A;The common infected dies&#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;Ellis readies Ellis' ak-47.&#x000A;&#x000A;The infected lunges towards Ellis.&#x000A;&#x000A;The infected misses Ellis.&#x000A;&#x000A;The tank throws the concrete at Ellis. &#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A;&#x000A;The Tank smashes Ellis's body.&#x000A;Ellis has died.&#x000A;&#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;The infected lunges towards you.&#x000A;&#x000A;React&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02167D28"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02167D28">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Stage&#x000A;You can see nine infected, a Tank, Rochelle's body, Coach's body, Ellis's body, a gnome, a cola and a med kit here.&#x000A;&#x000A;React&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02167D98"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02167D98">
+    <command xml:space="preserve">numbers on</command>
+    <result xml:space="preserve">You will now see combat-related numbers.&#x000A;&#x000A;React&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02167E08"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02167E08">
+    <command xml:space="preserve">attack</command>
+    <result xml:space="preserve">What do you want to attack?&#x000A;&#x000A;React&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02167E78"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02167E78">
+    <command xml:space="preserve">infected</command>
+    <result xml:space="preserve">Attacking is an action, not a reaction.&#x000A;&#x000A;React&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02167EE8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02167EE8">
+    <command xml:space="preserve">dodge</command>
+    <result xml:space="preserve">Rolling 7 + 1 (inherent bonus) + 2 (concentration) - 2 (defender dodging) = 8, the infected beats your defence rating of 7.&#x000A;&#x000A;The infected deals 2 This Infected got hit by aoe.&#x000A;&#x000A; = 2 damage, wounding you to 15 health.&#x000A;&#x000A;The infected hits you.&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02172008"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02172008">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Stage&#x000A;You can see nine infected, a Tank, Rochelle's body, Coach's body, Ellis's body, a gnome, a cola and a med kit here.&#x000A;&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02172078"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02172078">
+    <command xml:space="preserve">heal</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x021720E8">
+    <command xml:space="preserve">attack tank</command>
+    <result xml:space="preserve">You lunge at the Coach and prepare to swing your katanafire. &#x000A;You land a hit on the Tank, and it roars in anger!&#x000A;&#x000A;Coach lunges at the Tank and prepares to swing his katana. &#x000A;Coach lands a few hits on the Tank and it roars furiously! &#x000A;&#x000A;&#x000A;Ellis readies Ellis' ak-47.&#x000A;&#x000A;Rochelle dashes at the Tank and prepares to swing her katana. &#x000A;Rochelle lands a few hits on the Tank and it snarls furiously! &#x000A;&#x000A;&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02172158"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02172158">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  ak-47 (6 of 6 shots left)&#x000A;  katana (readied)&#x000A;&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x021721C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x021721C8">
+    <command xml:space="preserve">ready ak</command>
+    <result xml:space="preserve">(ak-47)&#x000A;You ready ak-47.&#x000A;&#x000A;The tank throws the concrete at Coach. &#x000A;Coach is hit by the rock.&#x000A;&#x000A;&#x000A;&#x000A;Ellis yells at the Tank and prepares to fire. &#x000A;Ellis lands a few hits on the Tank and it growls furiously! &#x000A;&#x000A;&#x000A;Rochelle screams at the Tank and prepares to fire. &#x000A;Rochelle lands a few hits on the Tank ! &#x000A;&#x000A;&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02172238"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02172238">
+    <command xml:space="preserve">shoot tank</command>
+    <result xml:space="preserve">You make a mad dash at the Tank and prepare to fire. &#x000A;You land a hit on the Tank, and it roars in anger!&#x000A;&#x000A;Coach yells at the Tank and prepares to fire. &#x000A;The Tank grabs a giant chunk of rock from the ground. &#x000A;Coach lands a few hits on the Tank ! &#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;some infecteds heard the noises and have entered the stage. &#x000A;The infected lunges towards Rochelle.&#x000A;&#x000A;The infected misses Rochelle.&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;Ellis lunges at the Tank and prepares to fire. &#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A;&#x000A;Ellis lands a few hits on the Tank and it snarls furiously! &#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x021722A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x021722A8">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Stage&#x000A;You can see two infected, a Tank, Rochelle, Coach, Ellis, a gnome, a cola and a med kit here.&#x000A;&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02172318"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02172318">
+    <command xml:space="preserve">attack atank</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02172388"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02172388">
+    <command xml:space="preserve">attack tank</command>
+    <result xml:space="preserve">You lunge at the Tank and prepare to fire. &#x000A;You land a hit on the Tank, and it roars in anger!&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;The tank throws the concrete at Rochelle. &#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A;&#x000A;Rochelle is hit by the rock.&#x000A;&#x000A;Rochelle groans trying to stand up.&#x000A;&#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;Coach lunges at the Tank and prepares to fire. &#x000A;Coach lands a few hits on the Tank and it roars furiously! &#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;The infected lunges towards Coach.&#x000A;&#x000A;The infected misses Coach.&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;some infecteds heard the noises and have entered the stage. &#x000A;The infected lunges towards Rochelle.&#x000A;&#x000A;The infected misses Rochelle.&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;The infected lunges towards you.&#x000A;&#x000A;React&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x021723F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x021723F8">
+    <command xml:space="preserve">dodge</command>
+    <result xml:space="preserve">This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A;&#x000A;The infected hits you.&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;some infecteds heard the noises and have entered the stage. &#x000A;The Tank grabs a giant chunk of rock from the ground. &#x000A;some infecteds heard the noises and have entered the stage. &#x000A;The infected lunges towards Coach.&#x000A;&#x000A;The infected misses Coach.&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02172468"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02172468">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Stage&#x000A;You can see six infected, a Tank, Rochelle, Coach, Ellis, a gnome, a cola and a med kit here.&#x000A;&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x021724D8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x021724D8">
+    <command xml:space="preserve">attack infected</command>
+    <result xml:space="preserve">You make a mad dash at the Coach and prepare to fire. &#x000A;The infected gets ready for quick evasive maneuvers.&#x000A;&#x000A; This Infected got hit by aoe.&#x000A;&#x000A;You managed to deal the finishing blow to an dead infected!&#x000A;&#x000A;You kill the infected.&#x000A;&#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;The infected lunges towards Ellis.&#x000A;&#x000A;The infected misses Ellis.&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;Coach yells at the infected and prepares to fire. &#x000A;The infected gets ready for quick evasive maneuvers.&#x000A;&#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A;&#x000A;Coach lands the finishing blow on an dead infected!&#x000A;&#x000A;Coach kills the infected.&#x000A;&#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;Rochelle lunges at the Tank and prepares to fire. &#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A;&#x000A;Rochelle lands a few hits on the Tank and it snarls furiously! &#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;The infected lunges towards Ellis.&#x000A;&#x000A;The infected misses Ellis.&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;Ellis rushes at the Tank and prepares to fire. &#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A;&#x000A;Ellis lands a few hits on the Tank and it roars furiously! &#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;The tank throws the concrete at Rochelle. &#x000A; This Infected got hit by aoe.&#x000A;&#x000A;Rochelle is hit by the rock.&#x000A;&#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02172548"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02172548">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Stage&#x000A;You can see an infected, a Tank, Rochelle, Coach, Ellis, a gnome, a cola and a med kit here.&#x000A;&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x021725B8">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  ak-47 (readied) (3 of 6 shots left)&#x000A;  katana&#x000A;&#x000A;React&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02172628"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02172628">
+    <command xml:space="preserve">attack tank</command>
+    <result xml:space="preserve">Attacking is an action, not a reaction.&#x000A;&#x000A;React&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02172698"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02172698">
+    <command xml:space="preserve">attack tank</command>
+    <result xml:space="preserve">Attacking is an action, not a reaction.&#x000A;&#x000A;React&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02172708"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02172708">
+    <command xml:space="preserve">dodge</command>
+    <result xml:space="preserve">The infected misses you.&#x000A;&#x000A;The infected lunges towards Rochelle.&#x000A;&#x000A;The infected misses Rochelle.&#x000A;&#x000A;The infected lunges towards Ellis.&#x000A;&#x000A;The infected misses Ellis.&#x000A;&#x000A;Coach lunges at the infected and prepares to swing his katana. &#x000A;The infected gets ready for quick evasive maneuvers.&#x000A;&#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A;&#x000A;Coach lands the finishing blow on the dead infected!&#x000A;The common infected dies&#x000A;&#x000A;&#x000A;Rochelle readies Rochelle's ak-47.&#x000A;&#x000A;The infected lunges towards Ellis.&#x000A;&#x000A;The infected misses Ellis.&#x000A;&#x000A;The infected lunges towards Coach.&#x000A;&#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A;&#x000A;The infected hits Coach.Coach groans trying to stand up.&#x000A;&#x000A;&#x000A;&#x000A;The Tank readies the Rock.&#x000A;&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02172778"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02172778">
+    <command xml:space="preserve">attack</command>
+    <result xml:space="preserve">What do you want to attack?&#x000A;&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02176398"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02176398">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Stage&#x000A;You can see a Tank, an infected, Rochelle, Coach, Ellis, a gnome, a cola and a med kit here.&#x000A;&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02176408"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02176408">
+    <command xml:space="preserve">attack infected</command>
+    <result xml:space="preserve">You run towards the Rochelle and prepare to fire. &#x000A;The infected gets ready for quick evasive maneuvers.&#x000A;&#x000A; This Infected got hit by aoe.&#x000A;&#x000A;You managed to deal the finishing blow to the dead infected!&#x000A;The common infected dies&#x000A;&#x000A;&#x000A;Coach dashes at the Tank and prepares to fire. &#x000A;Coach lands a few hits on the Tank and it growls furiously! &#x000A;&#x000A;&#x000A;Rochelle lunges at the Tank and prepares to fire. &#x000A;Rochelle lands a few hits on the Tank ! &#x000A;&#x000A;&#x000A;Ellis lunges at the Tank and prepares to fire. &#x000A;The Tank grabs a giant chunk of rock from the ground. &#x000A;Ellis lands a few hits on the Tank and it roars furiously! &#x000A;&#x000A;&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02176478"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02176478">
+    <command xml:space="preserve">attack infected</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x021764E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x021764E8">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Stage&#x000A;You can see a Tank, Rochelle, Coach, Ellis, a gnome, a cola and a med kit here.&#x000A;&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02176558"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02176558">
+    <command xml:space="preserve">attack infected</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x021765C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x021765C8">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Stage&#x000A;You can see a Tank, Rochelle, Coach, Ellis, a gnome, a cola and a med kit here.&#x000A;&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02176638"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02176638">
+    <command xml:space="preserve">attack infected</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x021766A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x021766A8">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Stage&#x000A;You can see a Tank, Rochelle, Coach, Ellis, a gnome, a cola and a med kit here.&#x000A;&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02176718"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02176718">
+    <command xml:space="preserve">look infected</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02176788"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02176788">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Stage&#x000A;You can see a Tank, Rochelle, Coach, Ellis, a gnome, a cola and a med kit here.&#x000A;&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x021767F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x021767F8">
+    <command xml:space="preserve">attack tank</command>
+    <result xml:space="preserve">You lunge at the Tank and prepare to fire. &#x000A;You land a hit on the Tank, and it roars in anger!&#x000A;&#x000A;The tank throws the concrete at you. &#x000A;React&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02176868"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02176868">
+    <command xml:space="preserve">dodge</command>
+    <result xml:space="preserve">you got hit by the concrete.&#x000A;&#x000A;&#x000A;&#x000A;Rochelle dashes at the Tank and prepares to fire. &#x000A;Rochelle lands a few hits on the Tank and it snarls furiously! &#x000A;&#x000A;&#x000A;Ellis yells at the Tank and prepares to fire. &#x000A;The Tank grabs a giant chunk of rock from the ground. &#x000A;Ellis lands a few hits on the Tank ! &#x000A;&#x000A;&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02176948"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02176948">
+    <command xml:space="preserve">dodge</command>
+    <result xml:space="preserve">You dodge, but there is no attack.&#x000A;&#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x021769B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x021769B8">
+    <command xml:space="preserve">attack tank</command>
+    <result xml:space="preserve">You make a mad dash at the Tank and prepare to fire. &#x000A;You land a hit on the Tank, and it roars in anger!&#x000A;&#x000A;Coach yells at the Tank and prepares to fire. &#x000A;Coach lands a few hits on the Tank ! &#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;The infected lunges towards you.&#x000A;&#x000A;React&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02176A28"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02176A28">
+    <command xml:space="preserve">dodge</command>
+    <result xml:space="preserve">The infected misses you.&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;The tank throws the concrete at Coach. &#x000A;Coach is hit by the rock.&#x000A;&#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;The infected lunges towards Rochelle.&#x000A;&#x000A;The infected misses Rochelle.&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;Ellis lunges at the infected and prepares to fire. &#x000A;The infected gets ready for quick evasive maneuvers.&#x000A;&#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A; This Infected got hit by aoe.&#x000A;&#x000A;Ellis lands the finishing blow on the dead infected!&#x000A;The common infected dies&#x000A;&#x000A;&#x000A;some infecteds heard the noises and have entered the stage. &#x000A;Act&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+</Skein>

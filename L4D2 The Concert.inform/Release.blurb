@@ -1,0 +1,53 @@
+! Blurb file created by Inform build 6G60
+
+status "C:\Program Files\Inform 7\Inform7\Extensions\Reserved\CblorbModel.html" "C:\Users\Victor\Desktop\Class Stuff\DANM 132\Inform Stuff\L4D2 The Concert\L4D2 The Concert.inform\Build\StatusCblorb.html"
+
+
+! Identification
+
+project folder "C:\Users\Victor\Desktop\Class Stuff\DANM 132\Inform Stuff\L4D2 The Concert\L4D2 The Concert.inform"
+release to "C:\Users\Victor\Desktop\Class Stuff\DANM 132\Inform Stuff\L4D2 The Concert\L4D2 The Concert Materials\Release"
+
+! Blorb instructions
+
+storyfile leafname "L4D2- The Concert.gblorb"
+storyfile "C:\Users\Victor\Desktop\Class Stuff\DANM 132\Inform Stuff\L4D2 The Concert\L4D2 The Concert.inform\Build\output.ulx" include
+ifiction "C:\Users\Victor\Desktop\Class Stuff\DANM 132\Inform Stuff\L4D2 The Concert\L4D2 The Concert.inform\Metadata.iFiction" include
+cover "C:\Users\Victor\Desktop\Class Stuff\DANM 132\Inform Stuff\L4D2 The Concert\L4D2 The Concert Materials\Cover.jpg"
+picture 1 "C:\Users\Victor\Desktop\Class Stuff\DANM 132\Inform Stuff\L4D2 The Concert\L4D2 The Concert Materials\Cover.jpg"
+
+! Placeholder variables
+
+placeholder [IFID] = "24485373-B713-4FFA-A35A-4371210F79FC"
+placeholder [RELEASE] = "1"
+placeholder [YEAR] = "2011"
+placeholder [TITLE] = "L4D2: The Concert"
+placeholder [AUTHOR] = "Victor Nguyen"
+placeholder [BLURB] = "A work of interactive fiction."
+
+! Other material to release
+
+source public
+
+! Website instructions
+
+placeholder [ENCODEDSTORYFILE] = "L4D2- The Concert.gblorb.js"
+template path "C:\Users\Victor\Desktop\Class Stuff\DANM 132\Inform Stuff\L4D2 The Concert\L4D2 The Concert Materials\Templates"
+template path "C:\Users\Victor\Documents\Inform\Templates"
+template path "C:\Program Files\Inform 7\Inform7\Extensions\Reserved\Templates"
+interpreter "Quixe" "g"
+base64 "C:\Users\Victor\Desktop\Class Stuff\DANM 132\Inform Stuff\L4D2 The Concert\L4D2 The Concert.inform\Build\output.ulx" to "C:\Users\Victor\Desktop\Class Stuff\DANM 132\Inform Stuff\L4D2 The Concert\L4D2 The Concert Materials\Release\interpreter\L4D2- The Concert.gblorb.js"
+
+! Website instructions
+
+template path "C:\Users\Victor\Desktop\Class Stuff\DANM 132\Inform Stuff\L4D2 The Concert\L4D2 The Concert Materials\Templates"
+template path "C:\Users\Victor\Documents\Inform\Templates"
+template path "C:\Program Files\Inform 7\Inform7\Extensions\Reserved\Templates"
+css
+website "Standard"
+status instruction ||&nbsp;<a href="source:story.ni#line5"><img border=0 src=inform:/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line7"><img border=0 src=inform:/Reveal.png></a>||
+status alternative ||Using 'Release along with the "Such-and-Such" file called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc389.html><img border=0 src=inform:/help.png></a>||
+status alternative ||Using 'Release along with a solution'&nbsp;<a href=inform:/doc398.html><img border=0 src=inform:/help.png></a>||
+status alternative ||Using 'Release along with the library card'&nbsp;<a href=inform:/doc399.html><img border=0 src=inform:/help.png></a>||
+status alternative ||Using 'Release along with the introductory booklet'&nbsp;<a href=inform:/doc392.html><img border=0 src=inform:/help.png></a>||

@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <title>Victor Nguyen - L4D2: The Concert — 2 of 22</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="author" content="Victor Nguyen" />
+  <meta name="description" content="A page for the game L4D2: The Concert by Victor Nguyen." />
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+</head>
+
+<body>
+
+<div class = "container">
+
+<div class ="sourcecoverimage">
+	<span><a href="Cover.jpg"><img src="Small Cover.jpg" border="1" /></a></span>
+</div>
+
+<div class ="sourceintroduction">
+	<h1>
+		<span>L4D2: The Concert</span> <span class="pagination">— 2 of 22</span>
+	</h1>
+	<h2>
+		<span>Victor Nguyen</span>
+	</h2>
+	<div class ="sourcebibliography">
+		<span>Release 1</span>
+	</div>
+</div>
+
+<div class = "links">
+<ul>
+<li><a href="index.html">Home page</a></li><li><a href="source.html">Beginning</a></li><li><a href="source.html">Previous</a></li><li><a href="source_1.html">Next</a></li>
+</ul>
+</div>
+
+<div class = "source">
+<p class="indent0"><span class="heading">Chapter - Initializing</span></p><p class="indent0"></p><p class="indent0">The can't reach outside closed containers rule is not listed in the reaching outside rulebook.</p><p class="indent0">Understand &quot;<span class="quote">aim</span>&quot; as concentrating.</p><p class="indent0">Understand the command &quot;<span class="quote">throw</span>&quot; as something new.</p><p class="indent0">Understand the command &quot;<span class="quote">throw</span>&quot; and &quot;<span class="quote">shoot</span>&quot; as &quot;<span class="quote">attack</span>&quot;.</p><p class="indent0"><span class="comment">[The printed name of concentration is usually &quot;power&quot;.]</span></p><p class="indent0">Understand &quot;<span class="quote">infecteds</span>&quot; as infected.</p><p class="indent0"></p><p class="indent0">The dead-infecteds is a list of persons that varies.</p><p class="indent0"></p><p class="indent0"><span class="comment">[clears out the dead hostiles]</span></p><p class="indent0">sweeping is an action applying to nothing.</p><p class="indent0">carry out sweeping(this is the standard sweeping rule):</p><p class="indent1">truncate dead-infecteds to 0 entries;</p><p class="indent1">repeat with X running through hostile persons enclosed by the location:</p><p class="indent2">if X is infected:</p><p class="indent3">if the health of X is less than 1:</p><p class="indent4">now X is in Heaven;</p><p class="indent4">fully heal X;</p><p class="indent4">add X to dead-infecteds;</p><p class="indent2">if X is Tank and the health of X is less than 1:</p><p class="indent3">now X is in Heaven;</p><p class="indent3">fully heal X;</p><p class="indent3">add X to dead-infecteds.</p><p class="indent0"></p><p class="indent0"><span class="comment">[aoe damage to the other infecteds]</span> </p><p class="indent0">spreading is an action applying to nothing.</p><p class="indent0"></p><p class="indent0">carry out spreading(this is the standard spreading rule): </p><p class="indent1">repeat with z running through alive infected in location:</p><p class="indent2">if a random chance of 1 in 5 succeeds and z is not global defender:</p><p class="indent3">now the health of z is the health of z minus 1; </p><p class="indent3">say &quot;<span class="quote">[</span><span class="substitution">if the health of z is less than 1</span><span class="quote">]An Infected gets killed in [</span><span class="substitution">global attacker</span><span class="quote">]'s attack[</span><span class="substitution">otherwise</span><span class="quote">]An infected got hit by [</span><span class="substitution">global attacker</span><span class="quote">]'s attack, but is still standing[</span><span class="substitution">end if</span><span class="quote">]. [</span><span class="substitution">line break</span><span class="quote">][</span><span class="substitution">run paragraph on</span><span class="quote">]</span>&quot;;</p><p class="indent3">if z is killed:</p><p class="indent4">now z is in Heaven;</p><p class="indent4">Fully heal z.</p><p class="indent0"></p><p class="indent0"><span class="comment">[this spawns infecteds]</span></p><p class="indent0">spawning is an action applying to nothing.</p><p class="indent0"><span class="comment">[check spawning: if number of infected in Heaven is less than 5, instead say &quot;Psst we're out of infecteds to move.&quot;.]</span></p><p class="indent0">carry out spawning(this is the standard spawning rule):</p><p class="indent1">if an infected is in Heaven:</p><p class="indent2">repeat with horde running from 1 to 5:</p><p class="indent3">if a random chance of 1 in 2 succeeds:</p><p class="indent4">say &quot;<span class="quote">An infected heard the noises and has entered the [</span><span class="substitution">location</span><span class="quote">]. [</span><span class="substitution">line break</span><span class="quote">]</span>&quot;;</p><p class="indent4">move a random infected in Heaven to location;</p><p class="indent5"></p><p class="indent0"><span class="comment">[this allows the player to use the med kit]</span></p><p class="indent0">Understand &quot;<span class="quote">heal</span>&quot; as healing.</p><p class="indent0">healing is an action applying to nothing.</p><p class="indent0">check healing: if player does not carry a med kit, instead say &quot;<span class="quote">I need a med kit!</span>&quot;.</p><p class="indent0">carry out healing:  heal the player for 5 health; now a random med kit held by player is off-stage; say &quot;<span class="quote">I'm healing! Cover me!</span>&quot;.</p><p class="indent0"></p>
+</div>
+
+<div class ="notes">
+
+</div>
+
+</div>
+
+</body>
+
+</html>
